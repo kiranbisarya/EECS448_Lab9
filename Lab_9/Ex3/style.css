@@ -1,0 +1,19 @@
+body {
+   background-color: #cce5ff;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+.button {
+    background-color: darkblue;
+    color: #ffffff;
+    padding: 10px 25px;
+    font-size: 14;
+}
+
+p { 
+    background-color: rgb(0, 19, 77); 
+    color: white; 
+}
+
+label {
+   color: mediumblue;
+}

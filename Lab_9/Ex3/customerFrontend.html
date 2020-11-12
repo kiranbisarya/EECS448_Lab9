@@ -1,0 +1,60 @@
+<html>
+<head>
+</head>
+<body>
+<form action="customerBackend.php" method="post">
+    
+    <label for="username">Username: </label><br>
+    <input type="text" name="username" id="username"><br>
+    <label for="password">Password: </label><br>
+    <input type="text" name="password" id="password"><br>
+
+    <br> 
+    <p>Please choose at least one item to buy:</p>
+    <input type="text" id="apple" name="apple">
+    <label for="apple">How many apples would you like? $1.00 each</label><br>
+    <input type="text" id="orange" name="orange">
+    <label for="orange">How many oranges would you like? $2.00 each</label><br>
+    <input type="text" id="grapes" name="grapes">
+    <label for="grapes">How many grapes would you like? $3.00 each</label><br>
+
+    <p>Please choose one shipping option:</p>
+    <input type="radio" id="7day" name="shipping" value="7 day">
+    <label for="7day">Free 7 day</label><br>
+    <input type="radio" id="overnight" name="shipping" value="Overnight">
+    <label for="overnight">$50.00 Overnight</label><br>
+    <input type="radio" id="threeday" name="shipping" value="Three day">
+    <label for="threeday">$5.00 three day</label><br>
+  
+  
+    
+  
+  
+    <br> 
+    
+    
+
+    <br>
+<input type="button" class="button" value="Check Input" onclick="checkInput()">
+<br><br>
+<div id="blank"></div>
+<br>
+<div id="userEmail"></div>
+<br>
+<div id="shippingChosen"></div>
+<br>
+<div id="valid"></div>
+<br>
+<input type="submit" class="button" value="Submit">
+<br>
+<input type="button" class="button" value="Reset" onclick="reset()">
+
+</form>
+
+
+<script type="text/javascript" src="formChecker.js"> </script>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+
+
+</body>
+</html>
